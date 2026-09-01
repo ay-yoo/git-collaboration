@@ -1,6 +1,7 @@
-def say_goodbye() -> None:
-    print("goodbye world!")
+def say_goodbye(number) -> None:
+    for i in range(number):
+        print("goodbye world!")
 
 
 if __name__ == "__main__":
-    say_goodbye()
+    say_goodbye(3)
