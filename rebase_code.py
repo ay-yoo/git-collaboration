@@ -1,6 +1,6 @@
-def say_goodbye() -> None:
-    print("goodbye world!")
+def say_goodbye(name) -> None:
+    print("Goodbye ", name)
 
 
 if __name__ == "__main__":
-    say_goodbye()
+    say_goodbye("Walter")
