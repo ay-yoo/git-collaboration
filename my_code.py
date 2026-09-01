@@ -1,6 +1,6 @@
 def say_hello(number) -> None:
     for i in range(number):
-        print("hello world!")
+        print("hello Ahyoung!")
 
 
 if __name__ == "__main__":
